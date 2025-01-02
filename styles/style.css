@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-fonts {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+
+
+  .back-color{
+    background: linear-gradient(
+180deg,
+rgb(19, 19, 19) 0%,
+rgba(5, 2, 2, 0.849) 50%,
+rgb(1, 1, 1) 100%
+);
+}
+
+
+.name{
+    color: rgba(230, 83, 60, 1);
+    ;
+   font-weight: bold;
+   font-size: 3rem;
+   font-style: italic;
+}
+.nav-list{
+    justify-content: space-around;
+    align-items: center;
+    
+    border: 1px solid gray;
+    border-radius: 20px;
+    
+
+}
+.navbar{
+    max-width: 1500px;
+    margin: 0px auto;
+    align-items: center;
+   
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text-color{
+    color: azure;
+    
+}
+
+
+/* nav related styles */
+.home-color{
+    background-color:rgba(230, 83, 60, 1) ;
+       
+       padding: 15px;
+       border-radius: 20px;
+   }
+   .nav-item{
+       list-style: none;
+       margin-right: 40px;
+       padding-left: 1px;
+       padding-top: 8px;
+       padding-bottom: 8px;
+   }
+   .nav-link{
+   text-decoration: none;
+   font-weight: 500;
+   margin: 0;
+   padding:0 10px;
+   
+   
+   }
+   /* Banner related style*/
+   .banner-title{
+      
+      margin-right: 10px;
+      font-size: bolder;
+      font-weight: 900;
+   }
+    .miama{
+       font-family: miama,sans-serif;
+   font-style: italic;
+   font-size: larger;
+   font-weight: 900;
+    }
+   
+   .banner{
+   
+      
+   }
+   .btn-color{
+    background-color: rgba(230, 83, 60, 1);
+    font-size: medium;
+    font-weight: 500;
+    color: azure;
+    
+    border-radius: 20px;
+   }
+   .btn-flex{
+    display: flex ;
+  
+   } 
+   .btn-design{
+       background-color: rgba(0, 0, 0, 0.607);
+       font-size: medium;
+       font-weight: 500;
+       color: azure;
+       padding: 5px;
+       border-radius: 20px;
+   }
+   
+   .btn-img{
+       position: relative;
+       left: 250px;
+   }
+   .banner-content{
+       padding-right: 660px;
+   }
+   .banner{
+       display: flex;
+       align-items: center;
+       max-width: 1550px;
+       margin: 0 auto;
+   }
+   /* card-1 design*/
+      .extra{
+       position: relative;
+       right: 150px;
+       
+       top: 200px;
+       display: flex;
+       align-items: center;
+       backdrop-filter: blur(20px);
+      width: 190px;
+      height: 85px;
+      padding: 10px;
+       border-radius: 20px;
+       background-color:rgba(255, 255, 255, 0.1) ;
+      }
+
+      
+
+      .card-1{
+   
+        box-shadow: 0 4px 8px 0 rgb(0,0,0,0,2);
+       transform: 0,3s;
+       color: aliceblue;
+     }
+     .card:hover{
+         box-shadow: 0 8px 16px 0 rgb(0,0,0,0,2);
+     
+     }
+      .container-1{
+         width: 200px;
+         height: 96px;
+         padding: 2px 16px;
+         border-radius: 1px;
+      }
+     
+      /* card-2 design*/
+     
+     .extra-2{
+     position: relative;
+     bottom: 195px;
+     left: 25px;
+     backdrop-filter: blur(20px);
+     max-width: 150px;
+     padding: 5px;
+     border-radius: 20px;
+     background-color:rgba(255, 255, 255, 0.1) ;
+     }
+     .card-2{
+         box-shadow: 0 4px 8px 0 rgb(0,0,0,0,2);
+         transform: 0,3s;
+         color: aliceblue;
+     }
+         .card:hover{
+             box-shadow: 0 8px 16px 0 rgb(0,0,0,0,2);
+         }
+         
+         .container-2{
+             padding: 2px 16px;
+         }
+     
