@@ -208,6 +208,11 @@ rgb(1, 1, 1) 100%
         .habits{
            
             text-align: center;
+            width: 1600px;
+            position: relative;
+            left: 100px;
+            display: flex;
+            justify-content: space-evenly;
         }
             .habit-des{
             
@@ -262,7 +267,7 @@ rgb(1, 1, 1) 100%
            }
            .run-extra-mile{
                margin: 0 auto;
-               max-width: 1670px;
+               max-width: 1170px;
                align-items: center;
                background-color: rgba(128, 128, 128, 0.448);
                border-radius: 20px;
