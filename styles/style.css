@@ -17,6 +17,16 @@ rgb(1, 1, 1) 100%
 );
 }
 
+.back-colour02{
+    background: black;
+}
+
+.main{
+    max-width: 1500px;
+    margin: 0px auto;
+    align-items: center;
+    padding: 2px;
+}
 
 .name{
     color: rgba(230, 83, 60, 1);
@@ -187,3 +197,74 @@ rgb(1, 1, 1) 100%
              padding: 2px 16px;
          }
      
+/* habit section design*/
+         .more{
+            max-width: 2000px ; 
+            margin: 0 auto;
+            background-color: black;
+            
+        }
+        
+        .habits{
+           
+            text-align: center;
+        }
+            .habit-des{
+            
+            color: aliceblue;
+            margin: 0 auto;
+           
+            }
+            
+        
+            .font-color{
+               color: rgba(255, 255, 255, 0.5);
+               ;
+            }
+        
+            /* Rounded PHoto Design*/
+        
+            
+            .img-design{
+                border-radius: 50%;
+                border: 5px solid rgba(128, 128, 128, 0.413);
+            }
+            .rounded-img{
+                display: flex;
+                justify-content: space-around;
+                margin: 100px 20px;
+            }
+
+
+             /*Run Extra mile design*/
+    .btn-ex-design{
+        background-color: rgba(230, 83, 60, 1);
+        font-size: medium;
+        font-weight: 500;
+        color: azure;
+        padding: 20px 50px;
+        
+        border-radius: 20px;
+           }
+           .heading-color{
+               color: aliceblue;
+           }
+           .run-des{
+               margin: 50px;
+             
+       
+           }
+          
+           .img-border{
+               max-width: 400px;
+               border-radius: 20px;
+               margin: 50px;
+           }
+           .run-extra-mile{
+               margin: 0 auto;
+               max-width: 1670px;
+               align-items: center;
+               background-color: rgba(128, 128, 128, 0.448);
+               border-radius: 20px;
+              
+           }
