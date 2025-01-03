@@ -249,10 +249,11 @@ rgb(1, 1, 1) 100%
         color: azure;
         padding: 20px 50px;
         
-        border-radius: 20px;
+        border-radius: 25px;
            }
            .heading-color{
                color: aliceblue;
+               font-size: 30px;
            }
            .run-des{
                margin: 50px;
@@ -273,3 +274,83 @@ rgb(1, 1, 1) 100%
                border-radius: 20px;
               
            }
+
+           .bmi-calculator{
+            margin: 100px 0;
+            }
+            .head-font{
+                font-size: bolder;
+                font-weight: 900;
+            }
+            .calculator-des{
+                text-align: center;
+            }
+        
+            /* BMI chart*/
+              .text-clr{
+                color: aliceblue;
+              }
+           
+            .bmi-main-part{
+               padding: 90px;
+                background-color: rgba(128, 128, 128, 0.349);
+               display: flex;
+              
+           
+               
+            }
+            .bmi-chart{
+                margin:0 200px;
+                
+            }
+            .heading-dsgn{
+                font-size: 35px;
+                text-align: center;
+                color: aliceblue;
+            }
+            .bmi-h3{
+                position: relative;
+                left: 0;
+                font-weight: 900;
+                
+            }
+            .content-table{
+                padding: 10px 10px;
+                border-collapse: collapse;
+            }
+            .btn-extra-design{
+                background-color: rgba(230, 83, 60, 1);
+                font-size: medium;
+                font-weight: 500;
+                color: azure;
+                border-radius: 20px;
+                padding: 10px 10px;
+                margin: 10px;
+            }
+           .padding{
+            padding:10px 10px ;
+           }
+           .bmi-calc{
+            max-width: 450px;
+           }
+
+           .bmi-tab{
+            width: 340px;
+            height: 200px;
+            
+            position: relative;
+            bottom: 0px;
+           
+            border: 1px solid gray;
+            border-collapse: collapse;
+           }
+
+           table,th,td{
+            width: 600px;
+            margin: auto;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid rgba(128, 128, 128, 0.781);
+           }
+        
