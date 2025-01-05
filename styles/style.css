@@ -395,4 +395,117 @@ rgb(1, 1, 1) 100%
             text-align: center;
             border: 2px solid rgba(128, 128, 128, 0.781);
            }
+
+           .meet{
+            text-align: center;
+        }
+          .meet-des{
+            text-align: center;
+          }
+        
+          /* trainer intro related design*/
+        
+          .grid-photo{
+            width: 1150px;
+            height: 800px;
+            margin: auto;
+            background-color: rgba(128, 128, 128, 0.431); ;
+            border-radius: 20px;
+            padding: 10px;
+           
+        }
+
+        .container-photo{
+       width: 350px;
+       height: auto;
+      
+       
+      
+        }
+        .grid-photo2{
+            position: relative;
+            left: 400px;
+            bottom: 382px;
+        }
+        
+        .grid-photo3{
+            position: relative;
+            left: 400px;
+            bottom: 382px;
+        }
+
+        .grid-photo4{
+            position: relative;
+            right: 400px;
+            bottom: 450px;
+        }
+
+        .grid-photo5{
+            position: relative;
+            right: 2px;
+            bottom: 828px;
+        }
+
+        .grid-photo6{
+            position: relative;
+            left: 400px;
+            bottom: 382px;
+        }
+
+        .text-relative1{
+            position: relative;
+            top: 300px;
+            right: 120px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        .text-relative2{
+            position: relative;
+            top: 300px;
+            right: 100px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        .text-relative3{
+            position: relative;
+            top: 300px;
+            right: 120px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        .text-relative4{
+            position: relative;
+            top: 300px;
+            right: 120px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        .text-relative5{
+            position: relative;
+            top: 300px;
+            right: 120px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        .text-relative6{
+            position: relative;
+            top: 300px;
+            right: 120px;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        .photo1{
+         width: 350px;
+         height: 290px;
+         border-radius: 25px;
+        }
+        .extra-width{
+        
+        }
         
