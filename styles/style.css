@@ -407,11 +407,11 @@ rgb(1, 1, 1) 100%
         
           .grid-photo{
             width: 1150px;
-            height: 800px;
+            height: 750px;
             margin: auto;
             background-color: rgba(128, 128, 128, 0.431); ;
             border-radius: 20px;
-            padding: 10px;
+            padding: 40px;
            
         }
 
@@ -508,4 +508,65 @@ rgb(1, 1, 1) 100%
         .extra-width{
         
         }
+
+        /* Footer section*/
+
+        .footer{
+            max-width: 1670;
+            margin-top: 130px;
+            display:flex ;
+            justify-content: space-evenly;
+            background-color:rgba(169, 169, 169, 0.205)
+        }
+        .footer-main-des{
+        max-width: 1300px;
+            margin: 100px ;
+          display: flex;
+          align-items: center;
+           justify-content: space-around;
+        } 
+        .footer-des{
+            position: relative;
+           right: 320px;
+        }
+        .head-1{
+            position: relative;
+            left: 40px;
+        }
+        .head-2{
+            position: relative;
+            left: 40px;
+        }
+        .list-1{
+            position: relative;
+            right: 100px;
+        }
+        .list-2{
+            position: relative;
+            left: 100px;
+        }
+        .none{
+            list-style: none;
+            margin: 10px;
+        }
+        
+        .final{
+            max-width: 2000px;
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+        }
+        .final-des{
+            padding: 10px;
+            align-items: center;
+            
+            background-color: rgba(169, 169, 169, 0.205);
+        }
+
+        .end{
+            position: relative;
+            left: 700px;
+        }
+        
+        
         
