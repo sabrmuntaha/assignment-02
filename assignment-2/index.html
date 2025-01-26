@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+   <link rel="stylesheet"  href="./styles/style.css">
+
+   <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/miama">
+
+ <style>
+   @media screen  and (max-width: 600px) {
+    .navbar{
+      flex-wrap: wrap;
+      padding: 40px;
+    }
+    .nav-list{
+     display: none;
+    }
+    .banner{
+      flex-direction:  column;
+      text-align:center;  
+      padding: 20px;
+   }
+    .btn-img{
+      max-width: 90%;
+     margin: 20px 0;
+    }
+   
+    .extra{
+      position: relative;
+      right: 50px;
+      top: 2px;
+      
+     
+    }
+    .extra2{
+     position: relative;
+     
+     
+     
+    }
+
+   
+
+    .run-extra-mile{
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+    .run-extra-mile img{
+      max-width: 90%;
+      margin: 20px auto;
+    }
+
+    .bmi-calculator, .bmi-main-part{
+      padding: 20px;
+      text-align: center;
+    }
+    .bmi-tab{
+      width: 100%;
+      font-size: 15px;
+    }
+    .bmi-calc-form{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+    .grid-photo{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .container-photo{
+      text-align: center;
+    }
+    .footer{
+      padding: 20px;
+      text-align: center;
+    }
+    .btn-img{
+      position: relative;
+      left: 30px;
+    }
+    .footer-main-des{
+      
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+    .footer-list- ul, .footer-list2 ul{
+      padding: 0;
+      list-style: none;
+    }
+   }
+ </style>
+
+
+</head>
+<body class="inter-fonts">
+    <header class="back-color">
+    <nav class="navbar display-flex">
+    
+        <h3 class="name">Fitness</h3>
+        <ul class=" nav-list display-flex">
+           <li class="nav-item"><a href="" class="nav-link text-color home-color">Home</a></li>
+           <li class="nav-item "><a href="" class="nav-link text-color">Service</a></li>
+           <li class="nav-item"><a href="" class="nav-link text-color">Contact</a></li>
+           <li class="nav-item"><a href="" class="nav-link text-color">About</a></li>
+       </ul>
+      
+    </nav>
+
+    <div class="banner">
+        <div class="banner-content text-color navbar"> 
+            <h1 class="banner-title">Get body in <br> 
+           <span class="miama">shape</span> & stay <br> healthy</h1>
+           <p class="font-color">
+            A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!
+           </p>
+           <div class="btn-flex">
+           <button class="btn-color ">Join Club Now!</button>
+           <button class="btn-design">Download App</button>
+          </div>
+           
+
+          </div>
+          
+           <img class="btn-img " src="./images/Images 2.png" alt=""> 
+            <div class="extra ">
+              <img src="./images/icons8-play-48 (1).png" alt="">
+           <div class="card-1">
+           <div class="container-1">
+            <h3><b>350+</b></h3>
+            <p>Video tutorial</p>
+
+           </div>
+           </div>
+          </div>
+
+          <div class="extra-2 ">
+            <div class="card-2">
+            <div class="container-2">
+             <h2><b>500+</b></h2>
+             <p>Free Workout Videos</p>
+            </div>
+          
+            </div>
+          
+          
+          </div>
+          </div>
+        
+          </div>
+          
+          
+
+    </header>
+     <main class="more back-colour02 main">
+      <div class="habits">
+        <div class="habit-des">
+         <h1 class="heading heading-dsgn">Change Your Habits</h1>
+           <p class="font-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+          <div class="rounded-img">
+          <div>
+            <img class="img-design" src="./images/image 3.png" alt="">
+            <h4 class="heading-dsgn4">Movement</h4>
+            <p class="font-color">We believe fitness should be accessible to everyone</p>
+          </div>
+          <div>
+            <img class="img-design" src="./images/image 2.png" alt="">
+            <h4 class="heading-dsgn4">Time</h4>
+            <p class="font-color">We believe fitness should be accessible to everyone</p>
+          </div>
+
+          <div>
+            <img class="img-design" src="./images/image 4.png" alt="">
+            <h4 class="heading-dsgn4">Practice</h4>
+            <p class="font-color">We believe fitness should be accessible to everyone</p>
+          </div>
+           <div>
+           <img class="img-design" src="./images/image 5.png" alt="">
+           <h4 class="heading-dsgn4">Weight Loss</h4>
+           <p class="font-color">We believe fitness should be accessible to everyone</p>
+           </div>
+
+          </div>
+        </div>
+     </div>
+
+     <section class="run-extra-mile display-flex">
+      <div class="run-des">
+       <h2 class="heading-color">Run an Extra <br> Mile Easily</h2>
+       <p class="font-color">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+       <button class="btn-ex-design">Join Now</button>
+       </div>
+       <div>
+       <img class="img-border" src="./images/run.jpg" alt="">
+      </div>
+      
+     </section>
+
+     <section class="bmi-calculator">
+      <div class="calculator-des">
+      <h1 class="heading-dsgn head-font">BMI Calculator</h1>
+      <p class="font-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+      </div>
+ 
+      </section>
+
+      <section class="bmi-main-part">
+
+       <div class="bmi-chart">
+        <div  class="bmi-h "></div>>
+          <h3 class="text-clr heading-dsgn">BMI Calculator Chart</h3>
+
+          <table  class="bmi-tab ">
+            <thead class="text-clr table">
+              <th>BMI</th>
+              <th>Weight Status</th>
+            </thead>
+            <tbody class="text-clr table">
+              <tr>
+              <td>Below 18.5</td>
+             <td>Underweight</td>
+
+            </tr>
+            <tr>
+              <td>18.5 - 24.9</td>
+              <td>Healthy</td>
+            </tr>
+            <tr>
+              <td>25.0 - 29.9</td>
+              <td>Overweight</td>
+            </tr>
+            <tr>
+              <td>30.0 - and Above</td>
+              <td>Obses</td>
+            </tr>
+            </tbody>
+          </table>
+
+
+        </div>
+
+       </div>
+
+
+        <div class="bmi-chart">
+          <div>
+          <div class="">
+            <h2 class="bmi-head">Calculate your BMI</h2>
+            <p class="font-color">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. </p>
+          </div>
+          <div class="font-color bmi-calc-form">
+            <form class="grid">
+              <div><input class="bmi-calc-form2" type="number" placeholder="Height/cm"></div>
+              <div><input class="bmi-calc-form2" type="number" placeholder="Weight/kg" name="" id=""></div>
+              <div><input class="bmi-calc-form2" type="number" placeholder="Age" name="" id=""></div>
+              <div><input class="bmi-calc-form2" type="text" placeholder="Sex" name="" id=""></div>
+              <div><input class="bmi-calc-form2" type="text" placeholder="Select an activity factor" name="" id=""></div>
+            </form>
+          </div>
+
+          <div><button class="btn-extra-design">Calculate</button></div>
+
+        </div>
+       </div>
+       
+        
+       
+         
+        
+        </section>
+
+        <section class="meet">
+          <div class="meet-des">
+          <h1 class="meet-heading heading-color">Meet Our Team</h1>
+           <p class="font-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+          </div>
+            <div class="grid-photo">
+
+              <div class="container-photo">
+
+
+                
+           <div>
+            <div class="text-relative1">
+            <h5>Jerome Bell</h5>
+            <p class="font-color">Trainer</p>
+          </div>
+            <img class="photo1" src="./images/trainer1.png" alt="">
+           </div>
+
+           <div class="grid-photo2">
+            <div>
+              <div class="text-relative2">
+             <h5>Cameron Williamson</h5>
+             <p  class="font-color">Trainer</p>
+            </div>
+             <img class="photo1 " src="./images/trainer2.png" alt="">
+            </div>
+
+            
+              <div class="grid-photo3">
+                <div class="text-relative3">
+               <h5>Darrell Steward</h5>
+               <p class="font-color">Trainer</p>
+              </div>
+               <img class="photo1" src="./images/trainer3.png" alt="">
+              </div>
+
+            
+
+              
+             
+              
+                <div class="grid-photo4">
+                  <div class="text-relative4">
+                 <h5>Dianne Russell</h5>
+                 <p class="font-color">Trainer</p>
+                </div>
+                 <img class="photo1" src="./images/trainer4.png" alt="">
+                </div>
+
+                <div class="grid-photo5">
+                  <div class="extra-width">
+                    <div class="text-relative5">
+                   <h5>Cody Fisher</h5>
+                   <p class="font-color">Trainer</p>
+                  </div>
+                   <img class="photo1" src="./images/trainer5.png" alt="">
+                  </div>
+
+                  
+                    <div class="grid-photo6">
+                      <div class="text-relative6">
+                     <h5>Theresa Webb</h5>
+                     <p class="font-color">Trainer</p>
+                     </div>
+                     <img class="photo1" src="./images/trainer6.png" alt="">
+                    </div>
+                  </div>
+          
+           </section>
+    
+
+
+           <section class=" footer">
+            <div class="footer-main-des">
+              <div class="footer-des">
+             <h1 class="name">Fitness</h1>
+             <p class="font-color">We believe fitness should be accessible to everyone, everywhere, <br> regardless of income or access to a gym. With hundreds of professional workouts.</p>
+              </div>
+              <div class="list-1">
+              <h3 class="heading-color head-1">Get Started</h3>
+              <ul class="footer-list-">
+                <li class="font-color none">Service</li>
+                <li class="font-color none">Contact Us</li>
+                <li class="font-color none">Affiliate Program</li>
+                <li class="font-color none">About Us</li>
+              </ul>
+              </div>
+              
+              <div class="list-2">
+                <h3 class="heading-color head-2">Get Started</h3>
+                <ul class="footer-list2">
+                  <li class="font-color none">Fitness</li>
+                  <li class="font-color none">Platform</li>
+                  <li class="font-color none">Workout Libary</li>
+                  <li class="font-color none">App Design</li>
+                </ul>
+                </div>
+                   
+              </section>
+    
+              <div class="final-des font-color">
+                <hr color="gray" width="50%">
+                <p class="end">All right reserved &copy;Fitness 2024 </p>
+                </div>
+     
+     </main>
+     <footer>
+      
+     </footer>
+</body>
+</html>
